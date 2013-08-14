@@ -1,3 +1,5 @@
+# This python script is from internet, and I modified it somewhere
+#
 # this provide a way to get public ip address from tp-link  
 import httplib, urllib, sys, re, base64, time  
   
