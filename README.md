@@ -1,4 +1,1 @@
-getMyPublicIP    
-=============
-
-Get my public IP from home, and send it to remote github as a commit text. BTW, fuck the ISP Kuandaitong!
+2013-08-15 01:40:24 - 223.20.9.207
