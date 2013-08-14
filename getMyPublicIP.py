@@ -24,8 +24,8 @@ headers = {"User-Agent": "python host",
     "Connection": "keep-alive"}  
   
 # get status page  
-#conn.request("GET", "/userRpm/StatusRpm.htm", "", headers)  
-conn.request("GET", "/userRpm/Index.htm", "", headers)
+conn.request("GET", "/userRpm/StatusRpm.htm", "", headers)  
+#conn.request("GET", "/userRpm/Index.htm", "", headers)
 response = conn.getresponse()  
 keyword = re.search(' wanPara [^\)]*?\)', response.read())  
 response.close()  
